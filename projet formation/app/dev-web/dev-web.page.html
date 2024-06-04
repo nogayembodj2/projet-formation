@@ -1,0 +1,57 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>dev_web</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="quiz-container">
+    <div class="question">1. Qu'est-ce que HTML?</div>
+    <div class="options">
+      <label><input type="radio" name="q1" value="a"> A. Hyper Text Markup Language.</label><br>
+      <label><input type="radio" name="q1" value="b"> B. High Text Markup Language.</label><br>
+      <label><input type="radio" name="q1" value="c"> C. Hyperlink and Text Markup Language.</label><br><br>
+    </div>
+  
+    <div class="question">2. Quelle est la différence entre HTML et JavaScript?</div>
+    <div class="options">
+      <label><input type="radio" name="q2" value="a"> A. HTML est un langage de balisage de contenu, tandis que JavaScript est un langage de programmation de scripts.</label><br>
+      <label><input type="radio" name="q2" value="b"> B. HTML est un langage de programmation, tandis que JavaScript est un langage de style.</label><br>
+      <label><input type="radio" name="q2" value="c"> C. HTML est un langage de style, tandis que JavaScript est un langage de balisage.</label><br><br>
+    </div>
+
+    <div class="question">3. Quelle est la différence entre HTML et CSS?</div>
+    <div class="options">
+      <label><input type="radio" name="q3" value="a"> A. HTML est un langage de balisage de contenu, tandis que CSS est un langage de style pour la présentation.</label><br>
+      <label><input type="radio" name="q3" value="b"> B. HTML est un langage de programmation, tandis que CSS est un langage de balisage.</label><br>
+      <label><input type="radio" name="q3" value="c"> C. HTML est un langage de style, tandis que CSS est un langage de programmation.</label><br><br>
+    </div>
+
+    <div class="question">4. Qu'est-ce que HTML?</div>
+    <div class="options">
+      <label><input type="radio" name="q4" value="a"> A. HTML est un langage de programmation utilisé pour créer des pages web.</label><br>
+      <label><input type="radio" name="q4" value="b"> B. HTML est un langage de balisage pour la création de style.</label><br>
+      <label><input type="radio" name="q4" value="c"> C. HTML est un langage de script utilisé pour les interactions utilisateur.</label><br><br>
+    </div>
+
+    <div class="question">5. Quel est l'acronyme de CSS?</div>
+    <div class="options">
+      <label><input type="radio" name="q5" value="a"> A. Cascading Style Sheets.</label><br>
+      <label><input type="radio" name="q5" value="b"> B. High Text Markup Language.</label><br>
+      <label><input type="radio" name="q5" value="c"> C. Hyperlink and Text Markup Language.</label><br><br>
+    </div>
+    <button (click)="submitAnswers()">Soumettre</button>
+  </div>
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">dev_web</ion-title>
+    </ion-toolbar>
+  </ion-header>
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>
+      <h6>@Copyright Force-N 2023</h6>
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>

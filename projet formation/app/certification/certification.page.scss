@@ -1,0 +1,58 @@
+#questions {
+    margin: 0 auto;
+    width: 60%;
+    text-align: left;
+  }
+
+  .menu-button {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ajoute une ombre légère */
+    margin-bottom: 10px; /* Ajoute de l'espacement en bas de chaque bouton */
+    margin-left: 100px;
+    padding: 50px; /* Ajoute du rembourrage pour un meilleur aspect visuel */
+    justify-content: space-between;
+  }
+.border{
+  padding: 50px 90px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0px 5px 5px -3px hwb(240 0% 0% / 0.5);
+  border-top: 3px solid blue;
+  border-bottom: 3px solid blue;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  
+}
+.border a{
+  margin-left: 150px;
+  justify-content: space-between;
+}
+.guide{
+  padding: 10px;
+  text-align: center;
+  width: 350px;
+  margin: 0 auto;
+}
+h4{
+  border: 2px solid black;
+  margin: 0;
+  padding: 5px 0;
+  text-align: center;
+}
+h3{
+  color: blue;
+}
+span{
+  background-color: #c06f2e;
+}
+ion-title h6{
+  background-color:black;
+  padding-bottom: 10px;
+color: white;
+
+}
+h6{
+  padding-top:  10px; 
+}

@@ -1,0 +1,57 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Bureautique</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="quiz-container">
+    <div class="question">1. Quelle est la différence entre Word et PowerPoint?</div>
+    <div class="options">
+      <label><input type="radio" name="q1" value="a"> A. Word est un logiciel de traitement de texte, tandis que PowerPoint est un logiciel de présentation.</label><br>
+      <label><input type="radio" name="q1" value="b"> B. Word est un tableur, tandis que PowerPoint est un logiciel de base de données.</label><br>
+      <label><input type="radio" name="q1" value="c"> C. Word est un logiciel de programmation, tandis que PowerPoint est un logiciel de modélisation 3D.</label><br><br>
+    </div>
+  
+    <div class="question">2. Quelle est la différence entre Word et Excel?</div>
+    <div class="options">
+      <label><input type="radio" name="q2" value="a"> A. Word est un logiciel de traitement de texte, tandis qu'Excel est un logiciel de tableur.</label><br>
+      <label><input type="radio" name="q2" value="b"> B. Word est un logiciel de présentation, tandis qu'Excel est un logiciel de base de données.</label><br>
+      <label><input type="radio" name="q2" value="c"> C. Word est un logiciel de traitement de texte, tandis qu'Excel est un logiciel de modélisation 3D.</label><br><br>
+    </div>
+
+    <div class="question">3. Quels sont les composants de l'ordinateur?</div>
+    <div class="options">
+      <label><input type="radio" name="q3" value="a"> A. La souris, le clavier, l'écran.</label><br>
+      <label><input type="radio" name="q3" value="b"> B. Le processeur, la RAM, le disque dur.</label><br>
+      <label><input type="radio" name="q3" value="c"> C. Le lecteur de CD, l'unité centrale, l'imprimante.</label><br><br>
+    </div>
+
+    <div class="question">4. Qu'est-ce qu'un processeur? </div>
+    <div class="options">
+      <label><input type="radio" name="q4" value="a"> A. Un logiciel de traitement de texte.</label><br>
+      <label><input type="radio" name="q4" value="b"> B. Un composant électronique de l'ordinateur.</label><br>
+      <label><input type="radio" name="q4" value="c"> C. Un logiciel de présentation.</label><br><br>
+    </div>
+
+    <div class="question">5. Qu'est-ce que la RAM? </div>
+    <div class="options">
+      <label><input type="radio" name="q5" value="a"> A. Random Access Memory, une mémoire volatile.</label><br>
+      <label><input type="radio" name="q5" value="b"> B. Read-Only Memory, une mémoire non volatile.</label><br>
+      <label><input type="radio" name="q5" value="c"> C. Une unité de stockage externe.</label><br><br>
+    </div>
+    <button (click)="submitAnswers()">Soumettre</button>
+  </div>
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Bureautique</ion-title>
+    </ion-toolbar>
+  </ion-header>
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>
+      <h6>@Copyright Force-N 2023</h6>
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>

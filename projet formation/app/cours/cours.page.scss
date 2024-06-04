@@ -1,0 +1,72 @@
+.cours{
+    display: flex;
+    justify-content: space-between;
+
+   
+}
+ion-title{
+text-transform:capitalize;
+color: black;
+}
+.cours  h1 {
+   color: rgb(0, 94, 255);
+   
+   width: 300px;
+   box-shadow: 2px 4px 5px rgba(0,0,0,0.2);
+   padding: 30px 15px;
+   transition: all .3s ease;
+   text-align: center;
+}
+.cours h1:hover{
+    transition: scale(1.1);
+}
+video{
+    padding: 5px;
+    width:90%;
+    height: auto;
+    
+  
+}
+h2{
+    text-align: center;
+}
+
+ion-title h6{
+    background-color:black;
+    padding-bottom: 10px;
+  color: rgb(37, 35, 35);
+  
+  }
+  h6{
+    padding-top:  10px; 
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  .web-development {
+    background-color: #e6f7ff;
+  }
+
+  .office-skills {
+    background-color: #fff0e6;
+  }
+
+  .graphic-design {
+    background-color: #f9e8ff;
+  }
+h1{
+    text-align: center;
+}

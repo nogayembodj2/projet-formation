@@ -1,0 +1,60 @@
+h3,h1,p{
+    text-align: center;
+color: black;
+}
+.couleur{
+  background-color: rgb(201, 201, 247);
+}
+h3{
+    background-color: rgb(157, 155, 155);
+    font-size: 4em;
+}
+@keyframes scroll {
+  from {
+      transform: translateX(100%);
+  }
+  to {
+      transform: translateX(-100%);
+  }
+}
+
+.scrolling-text {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: scroll 12s linear infinite;
+}
+
+span{
+    color: white;
+}
+h1{
+    text-transform: capitalize;
+}
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .container img {
+    box-shadow: 0 0 5px black;
+    margin: 50px; 
+    width: 200px;
+    padding: 10px;
+  }
+
+  .container p {
+    text-align: center;
+  }
+
+  ion-title h6{
+    background-color:black;
+    padding-bottom: 10px;
+  color: white;
+  
+  }
+  h6{
+    padding-top:  10px; 
+  }
+  
+
